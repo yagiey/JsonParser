@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LexerSample\PsudoDfa\PsudoDfa.csproj" />
+  </ItemGroup>
+
 </Project>
