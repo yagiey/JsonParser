@@ -1,0 +1,3 @@
+[submodule "LexerSample"]
+	path = LexerSample
+	url = https://github.com/yagiey/LexerSample
