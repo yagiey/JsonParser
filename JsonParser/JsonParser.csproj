@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LexerSample\LexerSample\LexerSample.csproj" />
+    <ProjectReference Include="..\LexerSample\LexerWithDFA\LexerWithDFA.csproj" />
     <ProjectReference Include="..\LexerSample\PsudoDfa\PsudoDfa.csproj" />
   </ItemGroup>
 

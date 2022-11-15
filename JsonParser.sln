@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PsudoDfa", "LexerSample\Psu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LexerSample", "LexerSample\LexerSample\LexerSample.csproj", "{DB428BD8-26C4-47AA-A937-13AF292D7B0E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LexerWithDFA", "LexerSample\LexerWithDFA\LexerWithDFA.csproj", "{B4F64F43-2CFB-4452-9F54-9C3F2B4BFFF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DB428BD8-26C4-47AA-A937-13AF292D7B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB428BD8-26C4-47AA-A937-13AF292D7B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB428BD8-26C4-47AA-A937-13AF292D7B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F64F43-2CFB-4452-9F54-9C3F2B4BFFF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F64F43-2CFB-4452-9F54-9C3F2B4BFFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F64F43-2CFB-4452-9F54-9C3F2B4BFFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F64F43-2CFB-4452-9F54-9C3F2B4BFFF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
