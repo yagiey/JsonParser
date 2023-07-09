@@ -10,6 +10,7 @@
     <ProjectReference Include="..\LexerSample\LexerSample\LexerSample.csproj" />
     <ProjectReference Include="..\LexerSample\LexerWithDFA\LexerWithDFA.csproj" />
     <ProjectReference Include="..\LexerSample\PsudoDfa\PsudoDfa.csproj" />
+    <ProjectReference Include="..\LL1Checker\LL1Checker\LL1Checker.csproj" />
   </ItemGroup>
 
 </Project>

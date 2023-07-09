@@ -4,12 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonParser", "JsonParser\JsonParser.csproj", "{06CC5C25-D407-4FF5-9137-BB1C181D4186}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C1A435E4-1C8B-441B-B6E0-1C7946B32458} = {C1A435E4-1C8B-441B-B6E0-1C7946B32458}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PsudoDfa", "LexerSample\PsudoDfa\PsudoDfa.csproj", "{422A0403-CF14-4471-ADCC-70E56CFA2E86}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LexerSample", "LexerSample\LexerSample\LexerSample.csproj", "{DB428BD8-26C4-47AA-A937-13AF292D7B0E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LexerWithDFA", "LexerSample\LexerWithDFA\LexerWithDFA.csproj", "{B4F64F43-2CFB-4452-9F54-9C3F2B4BFFF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LL1Checker", "LL1Checker\LL1Checker\LL1Checker.csproj", "{C1A435E4-1C8B-441B-B6E0-1C7946B32458}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +38,10 @@ Global
 		{B4F64F43-2CFB-4452-9F54-9C3F2B4BFFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4F64F43-2CFB-4452-9F54-9C3F2B4BFFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4F64F43-2CFB-4452-9F54-9C3F2B4BFFF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A435E4-1C8B-441B-B6E0-1C7946B32458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A435E4-1C8B-441B-B6E0-1C7946B32458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A435E4-1C8B-441B-B6E0-1C7946B32458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A435E4-1C8B-441B-B6E0-1C7946B32458}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

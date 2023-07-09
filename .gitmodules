@@ -1,3 +1,6 @@
 [submodule "LexerSample"]
 	path = LexerSample
 	url = https://github.com/yagiey/LexerSample
+[submodule "LL1Checker"]
+	path = LL1Checker
+	url = git@github.com:yagiey/LL1Checker
